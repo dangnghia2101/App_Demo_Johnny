@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "823171219964",
+    "project_id": "office-manager-8a4cd",
+    "storage_bucket": "office-manager-8a4cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823171219964:android:6adc66ac51238d5a5af279",
+        "android_client_info": {
+          "package_name": "com.fpoly.officemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823171219964-3na96eijisd38j244kh36mulckpf1icv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpoly.officemanager",
+            "certificate_hash": "b903df8189d99e9e41ce3a13fae3fa3bce0da9ab"
+          }
+        },
+        {
+          "client_id": "823171219964-5s3qtka0rt9v45m37ijuf61ff5f277nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpoly.officemanager",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "823171219964-gpcq8j8rm1c675fv0nt1e25rmaao1snp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpoly.officemanager",
+            "certificate_hash": "255edc0b05f50dd82a42c2f768120266a36aeb5f"
+          }
+        },
+        {
+          "client_id": "823171219964-n9e4idev36dfn5i4rtuct5n795g84hek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpoly.officemanager",
+            "certificate_hash": "a916e5c1e571d8bd51c4f57d3cdc008244a14104"
+          }
+        },
+        {
+          "client_id": "823171219964-u2ekelne6rjm066n2o1u6du1q8agmm2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpoly.officemanager",
+            "certificate_hash": "ad0f14e74177ea40903c1025ec3e2a406ca22c14"
+          }
+        },
+        {
+          "client_id": "823171219964-uvt6jqckq1ls6pq3k62tbjcc759dkelt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpoly.officemanager",
+            "certificate_hash": "b58c1bcec071c4a0a7bdb19e03a779b17b54acb2"
+          }
+        },
+        {
+          "client_id": "823171219964-kckl6l0uahdufsfseblfosstortkioes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_9Ge_dyguIhMLFvmcohOQcnd4BrbvhC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823171219964-3q0e2ogfmp25voqm4v3am6gj0a5ojrcu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "823171219964-a3a2r0tnjqm4ehhp3totuv78djg41fcl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fpoly.hcm.officemanager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
