@@ -1,2 +1,2 @@
-export * from './BottomBar'
-export * from './RenderIconTeacherRole'
+export * from "./BottomBar";
+export * from "./RenderIconMenu";

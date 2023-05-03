@@ -11,4 +11,4 @@ LogBox.ignoreAllLogs(true)
 
 let codePushOptions = { checkFrequency: codePush.CheckFrequency.MANUAL }
 
-AppRegistry.registerComponent(appName, () => codePush(codePushOptions)(App))
+AppRegistry.registerComponent(appName, () => App)

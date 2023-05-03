@@ -3,12 +3,7 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from "@react-navigation/stack";
-import {
-  CreaditCard,
-  History as HistoryTeacher,
-  Home as HomeTeacher,
-  Setting as SettingTeacher,
-} from "@screens/Main";
+import { CreaditCard, History, Home, Setting } from "@screens/Main";
 
 import React, { FC } from "react";
 import { BottomBar } from "./components";
@@ -21,32 +16,28 @@ const BottomTabs = createBottomTabNavigator();
 const BottomTabsTeacherNavigation: FC<{}> = () => {
   return (
     <BottomTabs.Navigator
-      initialRouteName={routes.homeTeacher}
+      initialRouteName={routes.home}
       detachInactiveScreens={true}
       screenOptions={{
         headerShown: false,
       }}
       tabBar={(props) => <BottomBar {...props} type={0} />}
     >
+      <BottomTabs.Screen key={routes.home} name="MOMO" component={Home} />
       <BottomTabs.Screen
-        key={routes.homeTeacher}
-        name="MOMO"
-        component={HomeTeacher}
-      />
-      <BottomTabs.Screen
-        key={routes.historyTeacher}
+        key={routes.history}
         name="PROMOTE"
-        component={HistoryTeacher}
+        component={History}
       />
       <BottomTabs.Screen
-        key={routes.phoneBookTeacher}
+        key={routes.phoneBook}
         name="HISTORY"
-        component={HistoryTeacher}
+        component={History}
       />
       <BottomTabs.Screen
-        key={routes.settingTeacher}
+        key={routes.setting}
         name="SETTING"
-        component={SettingTeacher}
+        component={Setting}
       />
     </BottomTabs.Navigator>
   );
@@ -55,17 +46,14 @@ const BottomTabsTeacherNavigation: FC<{}> = () => {
 export const MainNavigation = () => {
   return (
     <Main.Navigator
-      initialRouteName={routes.teacher}
+      initialRouteName={routes.main}
       detachInactiveScreens={true}
       screenOptions={{
         headerShown: false,
         cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
       }}
     >
-      <Main.Screen
-        name={routes.teacher}
-        component={BottomTabsTeacherNavigation}
-      />
+      <Main.Screen name={routes.main} component={BottomTabsTeacherNavigation} />
 
       <Main.Screen name={routes.creditCard} component={CreaditCard} />
     </Main.Navigator>
